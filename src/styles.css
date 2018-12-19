@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* turn off highlight */
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+/* default styles, hanldes 1280x850 resolution*/
+body {
+    font-family:oswald;
+    color:#636363;
+}
+
+#container {
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	background-size:contain; 
+}
