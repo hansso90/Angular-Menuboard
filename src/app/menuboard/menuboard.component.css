@@ -1,10 +1,10 @@
 h1 {
-    color: #e21836;
+    color: #fff;
     margin-bottom:-4%;
 }
 
 h2 {
-    color: #636363;
+    color: #fff;
     margin-bottom:15%;
 }
 
@@ -12,6 +12,12 @@ h3 {
     color: #e21836;
     margin-top:-3%;
     margin-bottom:-5%;
+}
+
+p#creator {
+    color: #e21836;
+    margin-left:50%;
+    margin-top: -5%;
 }
 
 table {
@@ -90,8 +96,8 @@ hr {
     font-size: 24px;
 }
 
-#soup-salad-table tr:nth-child(2) { border-bottom: 2px solid #636363;}
-#soup-salad-table tr:nth-child(4) { border-bottom: 2px solid #636363;}
+#soup-salad-table tr:nth-child(2) { border-bottom: 2px solid #fff;}
+#soup-salad-table tr:nth-child(4) { border-bottom: 2px solid #fff;}
 
 #soup-salad-table th{
     font-size:10px;
@@ -114,7 +120,8 @@ hr {
 #flame-icon {
     height:3%;
 	display: inline-block;
-  	-webkit-animation: pulse 2s infinite linear; 
+      -webkit-animation: pulse 2s infinite linear;
+    color: white; 
 }
 
 @-webkit-keyframes pulse {
@@ -164,13 +171,86 @@ hr {
 	background-size:contain; 
 }
 
-#left-content {
+#pasta-content {
     width:42.5%;
     height:90%;
     top:5%;
+    left:75%;
+    position:absolute;	
+}
+
+#pigs-content {
+    width:42.5%;
+    height:90%;
+    top:60%;
+    left:65%;
+    position:absolute;	
+}
+
+#smeersels-content {
+    width:42.5%;
+    height:90%;
+    top:75%;
     left:5%;
     position:absolute;	
 }
+
+#beenham-content {
+    width:42.5%;
+    height:90%;
+    top:27%;
+    left:70%;
+    position:absolute;	
+}
+
+#cheesecake-content {
+    width:42.5%;
+    height:90%;
+    top:23%;
+    left:25%;
+    position:absolute;	
+}
+
+#chocolade-content {
+    width:42.5%;
+    height:90%;
+    top:70%;
+    left:35%;
+    position:absolute;	
+}
+
+#empanadas-content {
+    width:42.5%;
+    height:90%;
+    top:40%;
+    left:10%;
+    position:absolute;	
+}
+
+#chicken-content {
+    width:42.5%;
+    height:90%;
+    top:40%;
+    left:40%;
+    position:absolute;	
+}
+
+#wraps-content {
+    width:42.5%;
+    height:90%;
+    top:20%;
+    left:50%;
+    position:absolute;	
+}
+
+#hartig-content {
+    width:42.5%;
+    height:90%;
+    top:57%;
+    left:12%;
+    position:absolute;	
+}
+
 
     #left-content-right {
         width:48%;

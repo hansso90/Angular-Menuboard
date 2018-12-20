@@ -9,9 +9,14 @@ html {
 
 /* default styles, hanldes 1280x850 resolution*/
 body {
-    font-family:oswald;
-    color:#636363;
+    font-family:chalk;
+    color:#fff;
 }
+
+@font-face {
+	font-family: chalk;
+	src: url(assets/font/Drawing_Guides.ttf);
+  }
 
 #container {
 	height:100%;
